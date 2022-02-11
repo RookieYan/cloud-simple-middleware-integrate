@@ -17,8 +17,8 @@ aliyun:
       endPoint: oss-cn-beijing.aliyuncs.com
       #阿里云账号AccessKey拥有所有API的访问权限，风险很高。强烈建议您创建并使用RAM用户进行API访问或日常运维，请登录RAM控制台创建RAM用户
       # 阿里云账号AccessKey里所对应的AccessKey ID
-      accessKeyId: accessKeyId
+      accessKeyId: accessKeyId1
       # 阿里云账号AccessKey里所对应的AccessKey Secret
-      accessKeySecret: accessKeySecret
-      bucketName: bucketName
-      objectNamePrefix: objectNamePrefix
+      accessKeySecret: accessKeySecret1
+      bucketName: bucketName1
+      objectNamePrefix: objectNamePrefix1

@@ -1,0 +1,24 @@
+server:
+  port: 1010
+
+spring:
+  application:
+    name: cloud-aliyun-oss
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 200MB
+
+aliyun:
+  oss:
+    file:
+      #yourEndpoint填写Bucket所在地域对应的Endpoint，可在创建好的Bucket概况页查看。
+      # 以成都为例，Endpoint填写为https://oss-cn-chengdu.aliyuncs.com
+      endPoint: oss-cn-beijing.aliyuncs.com
+      #阿里云账号AccessKey拥有所有API的访问权限，风险很高。强烈建议您创建并使用RAM用户进行API访问或日常运维，请登录RAM控制台创建RAM用户
+      # 阿里云账号AccessKey里所对应的AccessKey ID
+      accessKeyId: accessKeyId
+      # 阿里云账号AccessKey里所对应的AccessKey Secret
+      accessKeySecret: accessKeySecret
+      bucketName: bucketName
+      objectNamePrefix: objectNamePrefix

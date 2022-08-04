@@ -11,6 +11,7 @@
     <modules>
         <module>cloud-aliyun-oss</module>
         <module>cloud-kafka-demo</module>
+        <module>cloud-utils-algorithm</module>
     </modules>
 
     <properties>
